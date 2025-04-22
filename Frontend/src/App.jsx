@@ -1,14 +1,11 @@
-import { useState } from 'react'
+import { ChakraProvider, Button } from "@chakra-ui/react";
 
-function App() {
-  
+  function App() {
+    return (
+     <>
+      <Button>Hii Hello World</Button>
+     </>
+    );
+  }
 
-  return (
-    <>
-    Hi
-    </>
-    
-  )
-}
-
-export default App
+  export default App;
